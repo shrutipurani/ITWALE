@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<title>profile</title>
+<meta charset="UTf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" hrf=portfolio.css>
+
+<style>
+body{
+    background-image: url(https://media01.stockfood.com/largepreviews/NDAzMTEzMDI2/13003646-A-light-blue-background.jpg);
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+    font-style: oblique;
+    margin-left: 10px;
+}
+.center{
+    font-size: 50px;
+    margin-left: 0%;
+}
+.center a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.4s;
+    transition-property: background;
+    font-style: oblique;
+    text-align: center;
+    font-size:15px;
+    font-size: 25px;
+}
+.center a :nth-child(:last-child){
+    margin-right: 80px;
+}
+.center a:hover{
+    background: rgb(238, 235, 55);
+}
+.name{
+    margin-left: 10%;
+    width: auto;
+    right: 0;
+    font-size: 25px;
+}
+.name p{
+    text-align: center;
+    margin-left: 10%;
+    right: 0%;
+    font-style:inherit;
+}
+img {
+    border-radius: 50%;
+    width: 40%;
+    padding-left: 40%;
+}
+.myself p{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:left;
+    padding-left: 10px;
+}
+.myself h2{
+    height: 50px;
+}
+.cl h6{
+    width: auto;
+    right: 0;
+    
+    margin-left: 10%;
+}
+.DG p{
+    
+    width: auto;
+    right: 0;
+    text-align: left;
+    margin-left: 10%;
+  }
+.id{
+    text-align: center;
+    margin-left: 10%;
+}
+</style>
+    
+    <h1> My Portfolo </h1>
+
+  <nav class="section2" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar"></nav>
+      <a href="javascript:void(0)" onclick="closeNav()" class="section2" style="padding:0 12px;">
+      <i class="fa fa-remove"></i></a>
+  <div class="center">
+      <a href="#" class="select1" onclick="closeNav()">Home</a>
+      <a href="#about" class="select1" onclick="closeNav()">About</a>
+      <a href="#skills" class="select1"onclick="closeNav()">Skills</a>
+      <a href="#education"class="select1"onclick="closeNav()">Education</a>
+      <a href="#Certifications"class="select1"onclick="closeNav()">Certifications</a>
+      <a href="#details"class="select1"onclick="closeNav()">Details</a>
+
+    </nav>
+  
+  <div class="name">
+    <h1 class="name"><br>Shruti Puranik</h1>
+    <p>Full stack Devlopment</p>
+
+  <img src="https://www.kindpng.com/picc/m/140-1403886_office-girl-cartoon-png-transparent-png.png">
+</header>
+
+
+  <div class="myself"  id="about">
+    <h2>About</h2>
+    
+    <p>I'm a web developer who's passionate about finding quick solutions to problems. I work well in team settings, and have a history of being able to troubleshoot programming challenges easily in collaborative work. Using programs like HTML, CSS, Javascript and PHP, I have build projects that app services and desktop sites still use today, after more than six years. I meet continuous high standards for web design and development, and hope to continue doing so in a full stack developer position.</p>
+     
+<hr>
+    
+    <div class="skills" id="skills"><h2> MY Skills</h2>
+    
+    <p class="1"> &#10022; Web developemt</p>
+
+    <p class="1"> &#10022; Excellent experiance in javascript</p>
+
+    <p class="1"> &#10022; Software practies </p>
+
+    <p class="1">  &#10022;Multiple programming languages</p>
+
+<hr> 
+
+  <div class="Edu" id="education" ><h2> Education</h2>
+      <h6 class="cl">&#8640; Bachelor of Computer Application</h6>
+      <p class="DG">Mgm's College of CS & IT,Nanded </p>
+      <h6 class="cl">&#8640;Master of Computer Application</h6>
+      <p class="DG">HVPM College of MCA,Amravati</p>
+  </div>
+
+<hr>
+
+  <div class="Certifications" id="Certifications">
+    <h2>Certifications</h2>
+    <p class="id" > &#8765; Front End Web Development 
+    <br>&#8765; Back-end Web developemt  </p>
+  </div>
+
+<hr>
+
+  <div class="details" id="details">
+    <h2>Details</h2>
+    
+    <p class="id"  >Email ID: <br>shrutipuranik92931@gmail.com</p>
+    <p class="id">Call ID :<br>+1 234 675-987</p>
+    <p class="id">LinkedIn ID: <br>linkedin.com./in/shruti</p>
+</div>
+</html>
